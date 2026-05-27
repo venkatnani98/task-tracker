@@ -7,7 +7,8 @@ A full-stack task management application built with React, Node.js/Express, and 
 ```bash
 # Use BASH Terminal
 
-git clone <your-repo-url>
+git clone https://github.com/venkatnani98/task-tracker
+
 cd task-tracker
 
 # Copy environment variables
