@@ -7,10 +7,10 @@ const start = async () => {
   try {
     // Create the tasks table if it doesn't exist yet
     await initDb();
-    console.log('✓ Database initialized');
+    console.log('OK... Database initialized');
 
     app.listen(PORT, () => {
-      console.log(`✓ Server running on port ${PORT}`);
+      console.log(`OK... Server running on port ${PORT}`);
     });
   } catch (err) {
     console.error('Failed to start server:', err);

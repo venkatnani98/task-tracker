@@ -1,5 +1,5 @@
 // All API calls go through this module.
-// This means if the backend URL changes, we only update it here.
+
 const BASE = '/api/tasks';
 
 // Helper: check for HTTP errors and throw with the server's error message

@@ -4,7 +4,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copy dependency files first — Docker caches this layer.
-# If only src files change, npm ci won't re-run (faster rebuilds).
+# If only src files change, npm install won't re-run (faster rebuilds).
 COPY package*.json ./
 RUN npm install --only=production
 
