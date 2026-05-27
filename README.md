@@ -5,6 +5,8 @@ A full-stack task management application built with React, Node.js/Express, and 
 ## Quick Start
 
 ```bash
+# Use BASH Terminal
+
 git clone <your-repo-url>
 cd task-tracker
 

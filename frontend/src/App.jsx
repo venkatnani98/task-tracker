@@ -68,7 +68,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>📋 Task Tracker</h1>
+      <h1>Task Tracker</h1>
 
       {error && (
         <div className="error" role="alert">
